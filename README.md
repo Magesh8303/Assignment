@@ -4,7 +4,7 @@
 
 ### configuration changes
 
-1.If we using other then windows OS then we should chnage the log file folder path in "src/main/resouce/log4j2.xml".
+1.If we using other then windows OS, we should chnage the log file folder path in "src/main/resouce/log4j2.xml".
 D colon is a defalut path in our demo application.
 
 2.Once the build is succeed.Application runs in 8086 port.
@@ -14,7 +14,7 @@ URL:http://localhost:8086/demo/test
 "Application Started" is defalut message will appear in browser.
 
 
-## Passing data to api
+## Passing Data to API
 
 Mentioned api end points name and url and http methods and sample input and  output.
 
