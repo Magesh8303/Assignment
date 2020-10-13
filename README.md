@@ -35,7 +35,6 @@ smaple datta: [
         "lastName":"Kumar"
     }
 ]<br />
-
 **output **: {
     "code": 201,
     "message": "Person Added Sucessfully"
@@ -101,8 +100,7 @@ smaple datta: [
         "postalCode":"641659"
     }
 ]<br />
-
-output: {
+**output**: {
     "code": 201,
     "message": "Address Added Sucessfully"
 }<br />
@@ -128,8 +126,7 @@ smaple datta: [
         "postalCode":"641659"
     }
 ]<br />
-
-output: {
+**output**: {
     "code": 200,
     "message": "Address Edited Sucessfully"
 }<br />
@@ -138,7 +135,7 @@ output: {
 
 URL:http://localhost:8086/demo/deleteaddress/2<br />
 Http method :DELTE<br />
-output:{
+**output**:{
     "code": 200,
     "message": "Address Deleted Sucessfully"
 }<br />
