@@ -16,12 +16,12 @@ URL:http://localhost:8086/demo/test
 
 ## Passing data to api
 
-Here I mentioned api end points name and url and http methods and sample input and  output.
+Mentioned api end points name and url and http methods and sample input and  output.
 
 ### 1.Adding person information
 
 URL: http://localhost:8086/demo/addperson<br /> 
-Http method :Post<br />
+Http method :POST<br />
 Data format :json<br />
 smaple datta: [
     {
@@ -36,16 +36,16 @@ smaple datta: [
     }
 ]<br />
 
-** output **: {
+**output **: {
     "code": 201,
     "message": "Person Added Sucessfully"
-}
+}<br />
 
 ### 2.Editing Person information
 
-URL: http://localhost:8086/demo/editperson
-Http method :PUT
-Data format :json
+URL: http://localhost:8086/demo/editperson<br />
+Http method :PUT<br />
+Data format :json<br />
 smaple datta: [
     {
         "id":"1",
@@ -57,34 +57,34 @@ smaple datta: [
         "firstName":"MageshTest",
         "lastName":"Kumartest"
     }
-]
+]<br />
 
 **output**:{
     "code": 200,
     "message": "Person Edited Sucessfully"
-}
+}<br />
 
 ### 3.Deleting Person information
 
-URL: http://localhost:8086/demo/deleteperson/2
-Http method :DELTE
+URL: http://localhost:8086/demo/deleteperson/2<br />
+Http method :DELTE<br />
 **output**:{
     "code": 200,
     "message": "Person Deleted Sucessfully"
-}
+}<br />
 
 ### 4.Listing Person information
-URL:http://localhost:8086/demo/listperson
-Http method :GET
+URL:http://localhost:8086/demo/listperson<br />
+Http method :GET<br />
 **output**:{
     "code": 200,
     "message": "[{\"id\":1,\"firstName\":\"Magesh\",\"lastName\":\"Kumar\"}]"
-}
+}<br />
 
 ### 5.Adding Address information
-URL: http://localhost:8086/demo/addaddress 
-Http method :Post
-Data format :json
+URL: http://localhost:8086/demo/addaddress <br />
+Http method :Post<br />
+Data format :json<br />
 smaple datta: [
     {
         "id":1,
@@ -100,18 +100,18 @@ smaple datta: [
         "state":"TamilNadu",
         "postalCode":"641659"
     }
-]
+]<br />
 
 output: {
     "code": 201,
     "message": "Address Added Sucessfully"
-}
+}<br />
 
 ### 6.Editing Address information
 
-URL: http://localhost:8086/demo/editaddress
-Http method :PUT
-Data format :json
+URL: http://localhost:8086/demo/editaddress<br />
+Http method :PUT<br />
+Data format :json<br />
 smaple datta: [
     {
         "id":1,
@@ -127,20 +127,20 @@ smaple datta: [
         "state":"TamilNadu",
         "postalCode":"641659"
     }
-]
+]<br />
 
 output: {
     "code": 200,
     "message": "Address Edited Sucessfully"
-}
+}<br />
 
 ### 6.Deleting Address information
 
-URL:http://localhost:8086/demo/deleteaddress/2
-Http method :DELTE
+URL:http://localhost:8086/demo/deleteaddress/2<br />
+Http method :DELTE<br />
 output:{
     "code": 200,
     "message": "Address Deleted Sucessfully"
-}
+}<br />
 
 
