@@ -23,7 +23,7 @@ Mentioned api end points name and url and http methods and sample input and  out
 URL: http://localhost:8086/demo/addperson<br /> 
 Http method :POST<br />
 Data format :json<br />
-smaple datta: [
+sample data: [
     {
         "id":"1",
         "firstName":"Magesh",
@@ -45,7 +45,7 @@ smaple datta: [
 URL: http://localhost:8086/demo/editperson<br />
 Http method :PUT<br />
 Data format :json<br />
-smaple datta: [
+sample data: [
     {
         "id":"1",
         "firstName":"Magesh",
@@ -84,7 +84,7 @@ Http method :GET<br />
 URL: http://localhost:8086/demo/addaddress <br />
 Http method :Post<br />
 Data format :json<br />
-smaple datta: [
+sample data: [
     {
         "id":1,
         "street":"74B",
@@ -110,7 +110,7 @@ smaple datta: [
 URL: http://localhost:8086/demo/editaddress<br />
 Http method :PUT<br />
 Data format :json<br />
-smaple datta: [
+sample data: [
     {
         "id":1,
         "street":"74B",
