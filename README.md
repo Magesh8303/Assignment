@@ -20,9 +20,9 @@ Here I mentioned api end points name and url and http methods and sample input a
 
 ### 1.Adding person information
 
-URL: http://localhost:8086/demo/addperson 
-Http method :Post
-Data format :json
+URL: http://localhost:8086/demo/addperson<br /> 
+Http method :Post<br />
+Data format :json<br />
 smaple datta: [
     {
         "id":"1",
@@ -34,7 +34,7 @@ smaple datta: [
         "firstName":"Magesh",
         "lastName":"Kumar"
     }
-]
+]<br />
 
 ** output **: {
     "code": 201,
